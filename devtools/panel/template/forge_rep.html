@@ -1,0 +1,24 @@
+
+<div v-if="tab==3" class="forge-rep">
+  <div class="panel fr">
+    <div class="t">刀装・马</div>
+    <div v-show="!view['equips']['set']" class="amounts">暂未获得数据，请进入结成页面</div>
+    <ul v-if="view['equips']['set']" class="equ">
+      <li v-repeat="view['equips']['data']">[{{$key | e2n}}] 持有 {{$value}}</li>
+    </ul>
+  </div>
+  <div class="panel fr">
+    <div class="t">锻刀<span style="cursor: pointer;" v-on="click: toggleForge" class="alv">[点击查看或关闭剧透]</span></div>
+    <div class="amounts"><span class="alv">工坊<b>{{data['forge']['open']}}</b></span><span class="lva">使用中<b>{{checkout('forge')}}</b></span></div>
+    <ul class="equ">
+      <li v-repeat="data['forge']['data']">[{{finished_at | tt2lt}}] {{sword_id | fs2n}}</li>
+    </ul>
+  </div>
+  <div class="panel fr">
+    <div class="t">手入</div>
+    <div class="amounts"><span class="alv">工坊<b>{{data['repair']['open']}}</b></span><span class="lva">使用中<b>{{checkout('repair')}}</b></span></div>
+    <ul class="equ">
+      <li v-repeat="data['repair']['data']">[{{finished_at | tt2lt}}] {{sword_serial_id | sid2n}}</li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+
+<!-- 队伍列表-->
+<div v-if="!view['party']['set']" v-show="tab==2">暂未取得队伍数据，请进入结成页面</div>
+<!-- 队伍列表-->
+<div v-if="view['party']['set']" v-show="tab==2">
+  <div v-if="view['party']['set']" class="party">
+    <div v-repeat="view['party']['data']" class="party-item">
+      <!-- 队伍和状态标注-->
+      <div class="name">{{party_name}}<span v-show="in_battle(party_no)" class="status">[战斗中]</span><span v-show="status==2" class="status">[远征中]</span><span v-show="status==2" class="status">[{{finished_at | conquest_time}}]</span></div>
+      <!-- 等级和兵力标注-->
+      <div class="amounts"><span class="alv">Average Lv.<b>{{avearge_lv}}</b></span><span class="lva">Total Lv.<b>{{amount_lv}}</b></span></div>
+      <!-- 列表-->
+      <ul class="swords">
+        <li v-repeat="slot" class="ss">
+          <div v-if="serial_id==null" class="item"><img src="../../assets/sword/0.png" class="simg"/>
+            <div class="c">
+              <div class="sname">空</div>
+              <div class="slv">Lv.0 (next 0)</div>
+            </div>
+            <div class="c">
+              <div class="shp">HP 0 / 0</div>
+              <div class="sf"><span class="sfico"></span>0</div>
+            </div>
+            <div class="c2">
+              <div class="sequ"><span>[空]</span></div>
+            </div>
+          </div>
+          <div v-if="serial_id!=null" class="item"><img v-attr="src: '../../assets/sword/' + sword_id + '.png'" class="simg"/>
+            <div class="c">
+              <div class="sname">{{name}}<span v-show="status==1" class="ssta">[手入]</span><span v-show="hp/hp_max&lt;=0.9 &amp;&amp; hp/hp_max&gt;0.65 &amp;&amp; status!=1" class="ssta y">[軽傷]</span><span v-show="hp/hp_max&lt;=0.65 &amp;&amp; hp/hp_max&gt;0.3 &amp;&amp; status!=1" class="ssta o">[中傷]</span><span v-show="hp/hp_max&lt;=0.3&amp;&amp;status!=1" class="ssta r">[重傷]</span></div>
+              <div class="slv">Lv.{{level}}(next {{next_exp}})</div>
+            </div>
+            <div class="c">
+              <div class="shp">HP {{hp}} / {{hp_max}}</div>
+              <div class="sf"><span v-class="r: fatigue &lt; 6,y: fatigue &gt;= 6 &amp;&amp; fatigue &lt; 20,p: fatigue &gt;= 50" class="sfico"></span><span v-show="fatigue &gt;= 50">桜吹雪</span><span v-show="fatigue &lt; 50 &amp;&amp; fatigue &gt;= 20">通常</span><span v-show="fatigue &lt; 20">疲労</span><span>{{fatigue}}</span><span v-show="fatigue &gt;= 50">(+20%)</span><span v-show="fatigue &gt;= 6 &amp;&amp; fatigue &lt; 20">(-20%)</span><span v-show="fatigue &lt; 6">(-40%)</span></div>
+            </div>
+            <div class="c2">
+              <div class="sequ"><span v-if="equip_serial_id1!=null" v-class="r: equip_1['level'] == 2, ur: equip_1['level'] == 0, b: equip_1['soldier_now'] == 0">[{{equip_1['sname']}} {{equip_1['soldier_now']}}/{{equip_1['soldier_max']}}]</span><span v-if="equip_serial_id1==null&amp;&amp;max_equip&gt;=1">[空]</span><span v-if="equip_serial_id2!=null" v-class="r: equip_2['level'] == 2, ur: equip_2['level'] == 0, b: equip_2['soldier_now'] == 0">[{{equip_2['sname']}} {{equip_2['soldier_now']}}/{{equip_2['soldier_max']}}]</span><span v-if="equip_serial_id2==null&amp;&amp;max_equip&gt;=2">[空]</span><span v-if="equip_serial_id3!=null" v-class="r: equip_3['level'] == 2, ur: equip_3['level'] == 0, b: equip_3['soldier_now'] == 0">[{{equip_3['sname']}} {{equip_3['soldier_now']}}/{{equip_3['soldier_max']}}]</span><span v-if="equip_serial_id3==null&amp;&amp;max_equip&gt;=3">[空]</span></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <div v-show="grouter('conquest')">远征选择，这里以后会有自动判断是否可以成功的，数据已经录完了就差写了</div>
+      <div v-show="grouter('sally')">出阵选择，这里以后会有自动判断是否有经验的，数据已经录完了就差写了</div>
+    </div>
+  </div>
+</div>
