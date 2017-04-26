@@ -381,7 +381,7 @@
         sword['equip_serial_id1'] = party[v['serial_id']]['equip_serial_id1'];
         sword['equip_serial_id2'] = party[v['serial_id']]['equip_serial_id2'];
         sword['equip_serial_id3'] = party[v['serial_id']]['equip_serial_id3'];
-        sword['next_exp'] = parseInt(sword['symbol'], 10) == 2 ? exports.tohken.define.upexp2[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10) : exports.tohken.define.upexp[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10); 
+        sword['next_exp'] = parseInt(sword['sword_id'], 10)%2 == 0 ? exports.tohken.define.upexp2[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10) : exports.tohken.define.upexp[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10); 
         if (parseInt(sword['level'], 10) === 99) {
           sword['next_exp'] = 0;
         }
