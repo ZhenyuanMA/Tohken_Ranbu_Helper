@@ -381,8 +381,14 @@
         sword['equip_serial_id1'] = party[v['serial_id']]['equip_serial_id1'];
         sword['equip_serial_id2'] = party[v['serial_id']]['equip_serial_id2'];
         sword['equip_serial_id3'] = party[v['serial_id']]['equip_serial_id3'];
-        sword['next_exp'] = parseInt(sword['sword_id'], 10)%2 == 0 ? exports.tohken.define.upexp2[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10) : exports.tohken.define.upexp[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10); 
-        if (parseInt(sword['level'], 10) === 99) {
+        
+        JihuaSword = [12, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 62, 84];
+        if(JihuaSword.includes(parseInt(sword['sword_id'], 10))){
+          sword['next_exp'] = exports.tohken.define.upexp2[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+        else{
+          sword['next_exp'] = exports.tohken.define.upexp[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);  
+        }if (parseInt(sword['level'], 10) === 99) {
           sword['next_exp'] = 0;
         }
         fatigue = parseInt(sword['fatigue'], 10) + parseInt(party[v['serial_id']]['vfatigue'], 10);
