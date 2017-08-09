@@ -2,7 +2,7 @@
 ## 首先
 修改自(https://github.com/hitomi/tohken)
 
-感谢（消失了很久的）[@毫无存在感的凌](http://www.weibo.com/moelynn)
+感谢原作者（消失了很久的）[@毫无存在感的凌](http://www.weibo.com/moelynn)
 
 ## 介绍
 Chrome插件一枚，适用于DMM游戏刀剑乱舞
@@ -25,7 +25,7 @@ src─┐
     │  │  # 存放资源的目录
     │  └─sword
     |     sword_id.png                # Q版刀剑
-    │     # 存放Q版刀剑的目录
+    │     # 存放Q版刀剑的目录（更新至8/1/2017毛利藤四郎及极胁四振）
     ├─devtools
     │  │  devtools.html
     │  │  devtools.js
@@ -79,6 +79,16 @@ src─┐
 解析并将处理后的数据传递至view模型中。
 
 通过Vue.js的数据绑定机制来更新视图
+
+## 已知bug
+
+手入时使用手伝い札时提醒不会消失
+
+小判数量不会变化
+
+界面特别窄时字会堆在一起
+
+手入无法正确提醒刀剑名称
 
 ## 参考资料
 https://developer.chrome.com/extensions/api_index
