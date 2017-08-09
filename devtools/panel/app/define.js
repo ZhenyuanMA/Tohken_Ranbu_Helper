@@ -45,7 +45,8 @@
       "group": 2,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "5": {
       "name": "小狐丸",
@@ -55,7 +56,8 @@
       "group": 2,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "7": {
       "name": "石切丸",
@@ -64,7 +66,8 @@
       "type": 1,
       "group": 2,
       "equip": 2,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "9": {
       "name": "岩融",
@@ -73,7 +76,8 @@
       "type": 3,
       "group": 2,
       "equip": 2,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "11": {
       "name": "今剣",
@@ -83,7 +87,8 @@
       "group": 2,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "12": {
       "name": "今剣·极",
@@ -93,7 +98,8 @@
       "group": 2,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "13": {
       "name": "大典太光世",
@@ -103,7 +109,8 @@
       "group": 14,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "15": {
       "name": "ソハヤノシルキ",
@@ -113,7 +120,8 @@
       "group": 14,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "17": {
       "name": "数珠丸恒次",
@@ -123,7 +131,8 @@
       "group": 12,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "19": {
       "name": "にっかり青江",
@@ -133,7 +142,19 @@
       "group": 12,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
+    },
+    "20": {
+      "name": "にっかり青江·极",
+      "id": 20,
+      "rarity": 3,
+      "type": 4,
+      "group": 12,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 25,
+      "symbol": 3
     },
     "23": {
       "name": "鳴狐",
@@ -143,7 +164,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "25": {
       "name": "一期一振",
@@ -153,7 +175,8 @@
       "group": 9,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "27": {
       "name": "鯰尾藤四郎",
@@ -163,7 +186,19 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "28": {
+      "name": "鯰尾藤四郎·极",
+      "id": 28,
+      "rarity": 3,
+      "type": 4,
+      "group": 9,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 3
     },
     "29": {
       "name": "骨喰藤四郎",
@@ -173,7 +208,19 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "30": {
+      "name": "骨喰藤四郎·极",
+      "id": 30,
+      "rarity": 3,
+      "type": 4,
+      "group": 9,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 3
     },
     "31": {
       "name": "平野藤四郎",
@@ -183,7 +230,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "32": {
       "name": "平野藤四郎·极",
@@ -193,7 +241,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "33": {
       "name": "厚藤四郎",
@@ -203,7 +252,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "34": {
       "name": "厚藤四郎·极",
@@ -213,7 +263,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "35": {
       "name": "後藤藤四郎",
@@ -223,7 +274,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "36": {
       "name": "後藤藤四郎·极",
@@ -233,7 +285,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "37": {
       "name": "信濃藤四郎",
@@ -243,7 +296,19 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "38": {
+      "name": "信濃藤四郎·极",
+      "id": 38,
+      "rarity": 2,
+      "type": 7,
+      "group": 9,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 2
     },
     "39": {
       "name": "前田藤四郎",
@@ -253,7 +318,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "40": {
       "name": "前田藤四郎·极",
@@ -263,7 +329,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "41": {
       "name": "秋田藤四郎",
@@ -273,7 +340,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "42": {
       "name": "秋田藤四郎·极",
@@ -283,7 +351,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "43": {
       "name": "博多藤四郎",
@@ -293,7 +362,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "44": {
       "name": "博多藤四郎·极",
@@ -303,7 +373,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "45": {
       "name": "乱藤四郎",
@@ -313,7 +384,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "46": {
       "name": "乱藤四郎·极",
@@ -323,7 +395,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "47": {
       "name": "五虎退",
@@ -333,7 +406,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "48": {
       "name": "五虎退·极",
@@ -343,7 +417,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "49": {
       "name": "薬研藤四郎",
@@ -353,7 +428,8 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "50": {
       "name": "薬研藤四郎·极",
@@ -363,7 +439,8 @@
       "group": 9,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "51": {
       "name": "包丁藤四郎",
@@ -373,8 +450,20 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
+    "52": {
+      "name": "包丁藤四郎·极",
+      "id": 52,
+      "rarity": 2,
+      "type": 7,
+      "group": 9,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 2
+  },
     "53": {
       "name": "大包平",
       "id": 53,
@@ -383,7 +472,8 @@
       "group": 4,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "55": {
       "name": "鶯丸",
@@ -393,7 +483,8 @@
       "group": 4,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "57": {
       "name": "明石国行",
@@ -403,7 +494,8 @@
       "group": 8,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "59": {
       "name": "蛍丸",
@@ -412,7 +504,8 @@
       "type": 1,
       "group": 8,
       "equip": 3,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "61": {
       "name": "愛染国俊",
@@ -422,7 +515,8 @@
       "group": 8,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "62": {
       "name": "愛染国俊·极",
@@ -432,7 +526,8 @@
       "group": 8,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "63": {
       "name": "千子村正",
@@ -442,7 +537,8 @@
       "group": 7,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     }, 
     "65": {
       "name": "蜻蛉切",
@@ -452,7 +548,8 @@
       "group": 7,
       "equip": 2,
       "area": 4,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },    
     "67": {
       "name": "物吉贞宗",
@@ -462,7 +559,8 @@
       "group": 13,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "69": {
       "name": "太鼓钟贞宗",
@@ -472,7 +570,19 @@
       "group": 13,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "70": {
+      "name": "太鼓钟贞宗·极",
+      "id": 70,
+      "rarity": 2,
+      "type": 7,
+      "group": 13,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 2
     },
     "71": {
       "name": "龟甲贞宗",
@@ -482,7 +592,8 @@
       "group": 13,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "73": {
       "name": "燭台切光忠",
@@ -492,7 +603,19 @@
       "group": 11,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
+    },
+    "77": {
+      "name": "小竜景光",
+      "id": 77,
+      "rarity": 4,
+      "type": 2,
+      "group": 11,
+      "equip": 3,
+      "area": 1,
+      "upgrade": 25,
+      "symbol": 1
     },
     "79": {
       "name": "江雪左文字",
@@ -502,7 +625,8 @@
       "group": 6,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "81": {
       "name": "宗三左文字",
@@ -512,7 +636,8 @@
       "group": 6,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "83": {
       "name": "小夜左文字",
@@ -522,7 +647,8 @@
       "group": 6,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "84": {
       "name": "小夜左文字·极",
@@ -532,7 +658,8 @@
       "group": 6,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 2
     },
     "85": {
       "name": "加州清光",
@@ -542,7 +669,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "87": {
       "name": "大和守安定",
@@ -552,7 +680,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "89": {
       "name": "歌仙兼定",
@@ -562,7 +691,8 @@
       "group": 3,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "91": {
       "name": "和泉守兼定",
@@ -572,7 +702,8 @@
       "group": 3,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "93": {
       "name": "陸奥守吉行",
@@ -582,7 +713,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "95": {
       "name": "山姥切国広",
@@ -592,7 +724,8 @@
       "group": 5,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "97": {
       "name": "山伏国広",
@@ -602,7 +735,8 @@
       "group": 5,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "99": {
       "name": "堀川国広",
@@ -612,7 +746,19 @@
       "group": 5,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "100": {
+      "name": "堀川国広·极",
+      "id": 100,
+      "rarity": 3,
+      "type": 4,
+      "group": 5,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 3
     },
     "101": {
       "name": "蜂須賀虎徹",
@@ -622,7 +768,8 @@
       "group": 10,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "103": {
       "name": "浦島虎徹",
@@ -632,7 +779,8 @@
       "group": 10,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "105": {
       "name": "長曽祢虎徹",
@@ -642,7 +790,8 @@
       "group": 10,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "107": {
       "name": "髭切",
@@ -652,7 +801,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "108": {
       "name": "髭切",
@@ -662,37 +812,41 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 50
+      "upgrade": 50,
+      "symbol": 1
     },
     "109": {
       "name": "髭切",
       "id": 109,
-      "rarity": 2,
+      "rarity": 3,
       "type": 3,
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 75
+      "upgrade": 75,
+      "symbol": 1
     },
     "110": {
       "name": "髭切",
       "id": 110,
-      "rarity": 3,
-      "type": 2,
-      "group": 1,
-      "equip": 2,
-      "area": 1,
-      "upgrade": 75
-    },
-    "112": {
-      "name": "膝丸",
-      "id": 112,
       "rarity": 4,
       "type": 2,
       "group": 1,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 75,
+      "symbol": 1
+    },
+    "112": {
+      "name": "膝丸",
+      "id": 112,
+      "rarity": 2,
+      "type": 2,
+      "group": 1,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 25,
+      "symbol": 1
     },
     "113": {
       "name": "膝丸",
@@ -702,7 +856,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 50
+      "upgrade": 50,
+      "symbol": 1
     },
     "114": {
       "name": "膝丸",
@@ -712,7 +867,8 @@
       "group": 1,
       "equip": 3,
       "area": 1,
-      "upgrade": 50
+      "upgrade": 50,
+      "symbol": 1
     },
     "116": {
       "name": "大倶利伽羅",
@@ -722,7 +878,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
     },
     "118": {
       "name": "へし切長谷部",
@@ -732,7 +889,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "120": {
       "name": "不動行光",
@@ -742,7 +900,19 @@
       "group": 9,
       "equip": 1,
       "area": 1,
-      "upgrade": 20
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "121": {
+      "name": "不動行光·极",
+      "id": 121,
+      "rarity": 2,
+      "type": 7,
+      "group": 9,
+      "equip": 1,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 2
     },
     "122": {
       "name": "獅子王",
@@ -752,7 +922,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "124": {
       "name": "小烏丸",
@@ -762,7 +933,8 @@
       "group": 1,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "128": {
       "name": "同田貫正国",
@@ -772,7 +944,8 @@
       "group": 1,
       "equip": 2,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "130": {
       "name": "鶴丸国永",
@@ -782,7 +955,8 @@
       "group": 1,
       "equip": 3,
       "area": 1,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "132": {
       "name": "太郎太刀",
@@ -791,7 +965,8 @@
       "type": 1,
       "group": 1,
       "equip": 2,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "134": {
       "name": "次郎太刀",
@@ -800,7 +975,8 @@
       "type": 1,
       "group": 1,
       "equip": 2,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "136": {
       "name": "日本号",
@@ -810,7 +986,8 @@
       "group": 1,
       "equip": 2,
       "area": 4,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
     },
     "138": {
       "name": "御手杵",
@@ -820,7 +997,29 @@
       "group": 1,
       "equip": 2,
       "area": 4,
-      "upgrade": 25
+      "upgrade": 25,
+      "symbol": 1
+    },
+    "140": {
+      "name": "巴形薙刀",
+      "id": 140,
+      "rarity": 3,
+      "type": 3,
+      "group": 1,
+      "equip": 2,
+      "upgrade": 25,
+      "symbol": 1
+    },
+    "142": {
+      "name": "毛利藤四郎",
+      "id": 142,
+      "rarity": 1,
+      "type": 7,
+      "group": 9,
+      "equip": 1,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 1
     }
   };
   exports.tohken.define.equiptype = {
@@ -1693,5 +1892,6 @@
   };
   exports.tohken.define.upexp = [0, 100, 300, 700, 1300, 2100, 3100, 4300, 5700, 7300, 9100, 11100, 13300, 15700, 18300, 21100, 24100, 27300, 30700, 34300, 38200, 42400, 46900, 51700, 56800, 62200, 67900, 73900, 80200, 86800, 93700, 100900, 108400, 116200, 124300, 132700, 141400, 150400, 159700, 169300, 179300, 189700, 200500, 211700, 223300, 235300, 247700, 260500, 273700, 287300, 301300, 315700, 330500, 345700, 361300, 377300, 393700, 410500, 427700, 445300, 463400, 482000, 501100, 520700, 540800, 561400, 582500, 604100, 626200, 648800, 672000, 695800, 720200, 745200, 770800, 797000, 823800, 851200, 879200, 907800, 937200, 967400, 998400, 1030200, 1062800, 1096200, 1130400, 1165400, 1201200, 1237800, 1277800, 1327800, 1387800, 1457800, 1537800, 1627800, 1727800, 1827800, 1927800, 0];
   exports.tohken.define.upexp2 = [0,588,1305,2194,3296,4653,6307,8300,10673,13468,16727,20491,24802,29702,35233,41436,48354,56027,64498,73808,84000,95114,107193,120278,134411,149634,165989,183517,202260,222260,307195,454335,660950,924310,1241685,1610345,2027560,2490600,2996735,3543235,4127370,4746410,5397625,6078285,6785660,7517020,8269635,9040775,9827710,10627710,11429400,12233306,13039953,13849865,14663567,15481584,16304441,17132662,17966772,18807296,19654759,20509686,21372601,22244029,23124495,24014524,24914640,25825368,26747233,27680760,28626474,29584899,30556560,31541982,32541690,33556208,34586062,35631776,36693875,37772883,38869326,39983728,41116614,42268509,43439937,44631423,45843492,47076669,48331479,49608446,50908096,52230953,53577541,54948386,56344012,57764944,59211707,60684826,62184826,0];
+  exports.tohken.define.upexp3 = [0,588,1305,2194,3296,4653,6307,8300,10673,13468,16727,20491,24802,29702,35233,41436,48354,56027,64498,73808,84000,95114,107193,120278,134411,149634,165989,183517,202260,222260,307195,454335,660950,924310,1241685,1771379,2230316,2739660,3296408,3897558,4540107,5221051,5937387,6686113,7464226,8268722,9096598,9944852,10810481,11690481,12572340,13456636,14343948,15234851,16129923,17029742,17934885,18845928,19763449,20688025,21620235,22560654,23509861,24468432,25436944,26415976,27406104,28407904,29421956,30448836,31489121,32543389,33612216,34696180,35795859,36911829,38044668,39194953,40363262,41550171,42756258,43982101,45228275,46495360,47783930,49094565,50427841,51784336,53164627,54569290,55998905,57454048,58935295,60443224,61978413,63541438,65132878,66753308,68403309,0];
 })(window);
 
