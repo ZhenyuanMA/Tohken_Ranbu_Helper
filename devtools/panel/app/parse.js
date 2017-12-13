@@ -49,6 +49,24 @@
             else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 3){
                 pre[ki] = exports.tohken.define.upexp3[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
             }
+            else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 4){
+              pre[ki] = exports.tohken.define.upexp4[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
+            }
+            else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 5){
+              pre[ki] = exports.tohken.define.upexp5[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
+            }
+            else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 6){
+              pre[ki] = exports.tohken.define.upexp6[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
+            }
+            else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 7){
+              pre[ki] = exports.tohken.define.upexp7[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
+            }
+            else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 8){
+              pre[ki] = exports.tohken.define.upexp8[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
+            }
+            else if(exports.tohken.define.tohkens[v['sword_id']]['symbol'] == 9){
+              pre[ki] = exports.tohken.define.upexp9[parseInt(pre['level'], 10)] - parseInt(pre['exp'], 10);
+            }
             if (parseInt(v['level'], 10) === 99) {
               return pre[ki] = 0;
             }
@@ -396,6 +414,25 @@
         else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 3){
             sword['next_exp'] = exports.tohken.define.upexp3[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
         }
+        else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 4){
+          sword['next_exp'] = exports.tohken.define.upexp4[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+        else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 5){
+            sword['next_exp'] = exports.tohken.define.upexp5[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+        else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 6){
+          sword['next_exp'] = exports.tohken.define.upexp6[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+        else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 7){
+            sword['next_exp'] = exports.tohken.define.upexp7[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+        else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 8){
+          sword['next_exp'] = exports.tohken.define.upexp8[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+        else if(exports.tohken.define.tohkens[party[v['serial_id']]['sword_id']]['symbol'] == 9){
+            sword['next_exp'] = exports.tohken.define.upexp9[parseInt(sword['level'], 10)] - parseInt(sword['exp'], 10);
+        }
+
         
         if (parseInt(sword['level'], 10) === 99) {
           sword['next_exp'] = 0;

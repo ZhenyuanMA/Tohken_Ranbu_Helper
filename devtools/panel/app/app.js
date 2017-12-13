@@ -29,7 +29,7 @@
       chrome.devtools.network.onRequestFinished.addListener((function(_this) {
         return function(request) {
           var tohken;
-          tohken = request.request.url.match(/http:\/\/(.*?)\.touken-ranbu\.jp\/(.*)/);
+          tohken = request.request.url.match(/https?:\/\/(.*?)\.touken-ranbu\.jp\/(.*)/);
           if (tohken !== null) {
             if (tohken[1] === "static") {
               return;
