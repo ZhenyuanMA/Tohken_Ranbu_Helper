@@ -628,6 +628,17 @@
       "upgrade": 25,
       "symbol": 1
     },
+    "75": {
+      "name": "大般若长光",
+      "id": 75,
+      "rarity": 4,
+      "type": 2,
+      "group": 11,
+      "equip": 3,
+      "area": 1,
+      "upgrade": 25,
+      "symbol": 1
+    },
     "77": {
       "name": "小竜景光",
       "id": 77,
