@@ -1,6 +1,7 @@
 # Tohken Ranbu Helper
 ## 首先
-修改自(https://github.com/hitomi/tohken)
+修改自(https://github.com/hitomi/tohken)旧版本
+新版本已上线
 
 感谢原作者（消失了很久的）[@毫无存在感的凌](http://www.weibo.com/moelynn)
 
@@ -72,7 +73,7 @@ src─┐
             vue.js
             # 第三方库
 ```
-## 运行机理（不太懂x）
+## 运行机理
 
 利用Chrome Devtools API来监听符合条件的网络通讯并将数据传至路由组件。
 
