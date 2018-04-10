@@ -740,6 +740,17 @@
       "upgrade": 20,
       "symbol": 1
     },
+    "86": {
+      "name": "加州清光·極",
+      "id": 86,
+      "rarity": 3,
+      "type": 5,
+      "group": 1,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 4
+    },
     "87": {
       "name": "大和守安定",
       "id": 87,
@@ -772,6 +783,17 @@
       "area": 1,
       "upgrade": 20,
       "symbol": 1
+    },
+    "90": {
+      "name": "歌仙兼定·極",
+      "id": 90,
+      "rarity": 3,
+      "type": 5,
+      "group": 3,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 4
     },
     "91": {
       "name": "和泉守兼定",
@@ -806,6 +828,17 @@
       "upgrade": 20,
       "symbol": 1
     },
+    "94": {
+      "name": "陸奥守吉行·極",
+      "id": 94,
+      "rarity": 3,
+      "type": 5,
+      "group": 1,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 4
+    },
     "95": {
       "name": "山姥切国広",
       "id": 95,
@@ -816,6 +849,17 @@
       "area": 1,
       "upgrade": 20,
       "symbol": 1
+    },
+    "96": {
+      "name": "山姥切国広·極",
+      "id": 96,
+      "rarity": 3,
+      "type": 5,
+      "group": 5,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 4
     },
     "97": {
       "name": "山伏国広",
@@ -860,6 +904,17 @@
       "area": 1,
       "upgrade": 25,
       "symbol": 1
+    },
+    "102": {
+      "name": "蜂須賀虎徹·極",
+      "id": 102,
+      "rarity": 3,
+      "type": 5,
+      "group": 10,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 25,
+      "symbol": 4
     },
     "103": {
       "name": "浦島虎徹",
