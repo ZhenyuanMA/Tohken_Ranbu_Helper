@@ -1265,6 +1265,16 @@
       "upgrade": 20,
       "symbol": 1
     },
+    "152": {
+      "name": "静形薙刀",
+      "id": 152,
+      "rarity": 3,
+      "type": 3,
+      "group": 1,
+      "equip": 2,
+      "upgrade": 25,
+      "symbol": 1
+    },
   };
   exports.tohken.define.equiptype = {
     "1": "投石兵",
