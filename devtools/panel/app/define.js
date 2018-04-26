@@ -1275,6 +1275,16 @@
       "upgrade": 25,
       "symbol": 1
     },
+    "154": {
+      "name": "南泉一文字",
+      "id": 154,
+      "rarity": 2,
+      "type": 5,
+      "group": 1,
+      "equip": 2,
+      "upgrade": 20,
+      "symbol": 1
+    },
   };
   exports.tohken.define.equiptype = {
     "1": "投石兵",
