@@ -1285,6 +1285,28 @@
       "upgrade": 20,
       "symbol": 1
     },
+    "156": {
+      "name": "千代金丸",
+      "id": 156,
+      "rarity": 3,
+      "type": 2,
+      "group": 1,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 25,
+      "symbol": 1
+    },
+    "158": {
+      "name": "山姥切長義",
+      "id": 158,
+      "rarity": 2,
+      "type": 5,
+      "group": 1,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 1
+    },
   };
   exports.tohken.define.equiptype = {
     "1": "投石兵",
