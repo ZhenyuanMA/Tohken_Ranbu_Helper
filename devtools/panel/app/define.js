@@ -30,7 +30,8 @@
     "13": "贞宗",
     "14": "三池",
     "15": "虎徹...?",
-    "16": "正宗"
+    "16": "正宗",
+    "17": "江"
   };
   exports.tohken.define.area = {
     "1": "狭",
@@ -1226,7 +1227,7 @@
       "id": 144,
       "rarity": 2,
       "type": 4,
-      "group": 1,
+      "group": 17,
       "equip": 2,
       "area": 1,
       "upgrade": 20,
@@ -1302,6 +1303,17 @@
       "rarity": 2,
       "type": 5,
       "group": 1,
+      "equip": 2,
+      "area": 1,
+      "upgrade": 20,
+      "symbol": 1
+    },
+    "160": {
+      "name": "豊前江",
+      "id": 160,
+      "rarity": 2,
+      "type": 4,
+      "group": 17,
       "equip": 2,
       "area": 1,
       "upgrade": 20,
