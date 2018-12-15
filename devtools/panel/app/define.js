@@ -1169,6 +1169,16 @@
       "upgrade": 25,
       "symbol": 1
     },
+    "133": {
+      "name": "太郎太刀·極",
+      "id": 133,
+      "rarity": 4,
+      "type": 1,
+      "group": 1,
+      "equip": 3,
+      "upgrade": 25,
+      "symbol": 6
+    },
     "134": {
       "name": "次郎太刀",
       "id": 134,
@@ -1178,6 +1188,16 @@
       "equip": 2,
       "upgrade": 25,
       "symbol": 1
+    },
+    "135": {
+      "name": "次郎太刀·極",
+      "id": 135,
+      "rarity": 4,
+      "type": 1,
+      "group": 1,
+      "equip": 3,
+      "upgrade": 25,
+      "symbol": 6
     },
     "136": {
       "name": "日本号",
