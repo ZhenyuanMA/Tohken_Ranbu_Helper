@@ -1339,6 +1339,16 @@
       "upgrade": 20,
       "symbol": 1
     },
+    "162": {
+      "name": "祢々切丸",
+      "id": 162,
+      "rarity": 3,
+      "type": 1,
+      "group": 1,
+      "equip": 2,
+      "upgrade": 25,
+      "symbol": 1
+    },
   };
   exports.tohken.define.equiptype = {
     "1": "投石兵",
