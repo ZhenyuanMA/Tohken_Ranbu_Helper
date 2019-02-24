@@ -12,7 +12,8 @@
     "4": "脇差",
     "5": "打刀",
     "6": "槍",
-    "7": "短刀"
+    "7": "短刀",
+    "8": "剣",
   };
   exports.tohken.define.group = {
     "1": "無",
@@ -71,6 +72,16 @@
       "equip": 2,
       "upgrade": 25,
       "symbol": 1
+    },
+    "8": {
+      "name": "石切丸·極",
+      "id": 8,
+      "rarity": 4,
+      "type": 1,
+      "group": 2,
+      "equip": 3,
+      "upgrade": 25,
+      "symbol": 6
     },
     "9": {
       "name": "岩融",
@@ -520,6 +531,16 @@
       "equip": 3,
       "upgrade": 25,
       "symbol": 1
+    },
+    "60": {
+      "name": "蛍丸",
+      "id": 60,
+      "rarity": 5,
+      "type": 1,
+      "group": 8,
+      "equip": 3,
+      "upgrade": 25,
+      "symbol": 6
     },
     "61": {
       "name": "愛染国俊",
@@ -1346,6 +1367,16 @@
       "type": 1,
       "group": 1,
       "equip": 2,
+      "upgrade": 25,
+      "symbol": 1
+    },
+    "164": {
+      "name": "白山吉光",
+      "id": 162,
+      "rarity": 4,
+      "type": 8,
+      "group": 9,
+      "equip": 3,
       "upgrade": 25,
       "symbol": 1
     },
